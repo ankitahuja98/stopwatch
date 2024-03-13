@@ -39,7 +39,7 @@
 }
 
 .LapDiv {
-  height: 25rem;
+  height: 22rem;
   width: 25rem;
   overflow-y: scroll;
 }
@@ -69,11 +69,14 @@
 .lapHeader {
   font-size: x-large;
   font-weight: 700;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 
 @media (max-width:700px) {
   .LapDiv {
-    height: 25rem;
+    height: 22rem;
     width: 25rem;
     overflow-y: scroll;
   }
@@ -86,7 +89,7 @@
 
 @media (max-width:500px) {
   .LapDiv {
-    height: 25rem;
+    height: 22rem;
     width: 20rem;
     overflow-y: scroll;
   }
@@ -123,7 +126,7 @@
 
 @media (max-width:350px) {
   .LapDiv {
-    height: 25rem;
+    height: 22rem;
     width: 15rem;
     overflow-y: scroll;
   }

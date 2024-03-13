@@ -11,7 +11,7 @@ const Laps = (props) => {
           <span className="ml-3">Lap</span>
           <span className="ml-10">Lap Timer</span>
           <span>
-            <button className="btn btn-danger clearallbtn" onClick={ClearAll}>
+            <button className="btn btn-danger clearallbtn mr-3" onClick={ClearAll}>
               Clear All
             </button>
           </span>
