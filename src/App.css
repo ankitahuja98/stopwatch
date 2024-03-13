@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.LapDiv {
+  height: 25rem;
+  width: 25rem;
+  overflow-y: scroll;
+}
+
+.startbtn,
+.pausebtn,
+.resumebtn,
+.resetbtn,
+.lapbtn {
+  font-size: x-large !important;
+  border-radius: 4rem !important;
+  height: 6.3rem;
+  width: 6.3rem;
+  margin-right: 1rem;
+}
+
+.pausebtn,
+.resumebtn {
+  color: black !important;
+  font-weight: 600 !important;
+}
+
+.clearallbtn {
+  margin-left: 1rem;
+}
+
+.lapHeader {
+  font-size: x-large;
+  font-weight: 700;
+}
+
+@media (max-width:700px) {
+  .LapDiv {
+    height: 25rem;
+    width: 25rem;
+    overflow-y: scroll;
+  }
+
+  .Timer {
+    font-size: 4rem;
+  }
+}
+
+
+@media (max-width:500px) {
+  .LapDiv {
+    height: 25rem;
+    width: 20rem;
+    overflow-y: scroll;
+  }
+
+  .Timer {
+    font-size: 2.5rem;
+  }
+
+  .BtnDiv Button {
+    font-size: medium !important;
+  }
+
+  .clearallbtn {
+    font-size: small !important;
+  }
+
+  .lapHeader {
+    font-size: large;
+    font-weight: 700;
+  }
+
+  .startbtn,
+  .pausebtn,
+  .resumebtn,
+  .resetbtn,
+  .lapbtn {
+    font-size: x-large !important;
+    border-radius: 4rem !important;
+    height: 4.7rem;
+    width: 4.7rem;
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width:350px) {
+  .LapDiv {
+    height: 25rem;
+    width: 15rem;
+    overflow-y: scroll;
+  }
+
+  .Timer {
+    font-size: 1.5rem;
+  }
+
+  .BtnDiv Button {
+    font-size: small !important;
+  }
+
+  .startbtn,
+  .pausebtn,
+  .resumebtn,
+  .resetbtn,
+  .lapbtn {
+    font-size: x-large !important;
+    border-radius: 4rem !important;
+    height: 4rem;
+    width: 4rem;
+    margin-right: 1rem;
+  }
+
+  .DltIcon {
+    margin-left: 1.5rem;
+  }
+}
